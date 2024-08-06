@@ -68,7 +68,7 @@ param_grid = {
     'metric': ['euclidean', 'manhattan'],
 }
 
-# Initialize the model
+# Initialize the model KNN
 knn = KNeighborsClassifier()
 
 # Set up the GridSearchCV
